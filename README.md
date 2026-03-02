@@ -30,25 +30,30 @@ Make sure you have Python installed on your system. You can download it from [py
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/AnasAbdelraouf128/Tic_Tac_Toe-Game.git](https://github.com/AnasAbdelraouf128/Tic_Tac_Toe-Game.git)
+
+   
 🎮 How to Play
-The game is played on a standard 3x3 grid.
 
-You will play as X and the AI will play as O (or vice versa depending on the prompt).
+1 : The game is played on a standard 3x3 grid.
 
-Enter your move based on the coordinate/numbering system prompted on the screen.
+2 : You will play as X and the AI will play as O (or vice versa depending on the prompt).
 
-Try to get 3 in a row (horizontal, vertical, or diagonal) before the AI does. (Spoiler: It won't let you!)
+3 : Enter your move based on the coordinate/numbering system prompted on the screen.
+
+4 : Try to get 3 in a row (horizontal, vertical, or diagonal) before the AI does. (Spoiler: It won't let you!)
 
 🔬 How the AI Works (Under the Hood)
-The AI opponent is powered by the Minimax Algorithm. It generates a complete game tree traversing all possible moves until a terminal state is reached (Win, Lose, or Draw).
 
-Maximizing Player: The AI tries to maximize its score (+10 for a win).
+1 : The AI opponent is powered by the Minimax Algorithm. It generates a complete game tree traversing all possible moves until a terminal state is reached (Win, Lose, or Draw).
 
-Minimizing Player: The AI assumes the human player will play optimally and tries to minimize the AI's score (-10 for a human win).
+2 : Maximizing Player: The AI tries to maximize its score (+10 for a win).
 
-Result: The AI maps out the board, assigns a value to every possible move, and executes the move that yields the highest utility.
+3 : Minimizing Player: The AI assumes the human player will play optimally and tries to minimize the AI's score (-10 for a human win).
+
+4 : Result: The AI maps out the board, assigns a value to every possible move, and executes the move that yields the highest utility.
 
 🎓 Acknowledgements
+
 Developed as the final project for Course 3303 - Artificial Intelligence.
 
 Created by Anas Abdelraouf.
